@@ -3,10 +3,10 @@
 
 class Room:
 
-    def __init__(self, name, description):
+    def __init__(self, name, description, items=[]):
         self.name = name
         self.description = description
-        self.items = []
+        self.items = items
     
     def add_items(self, item):
         self.items.append(item)

@@ -17,4 +17,4 @@ class Player:
         return self.items
     
     def __str__(self):
-        return f'Current location:\n {self.room}'
+        return f'Current location:\n {self.current_room}'
